@@ -8,6 +8,10 @@ issues, or releases that the repository has not earned yet.
 
 `https://github.com/create-aquarius/ai-static-site-preflight`
 
+## Live demo
+
+`https://create-aquarius.github.io/ai-static-site-preflight/`
+
 ## Role
 
 **Primary maintainer**

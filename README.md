@@ -7,6 +7,11 @@ Paste or select an HTML file, run the checks, and review common publishing,
 accessibility, and metadata issues. The initial version runs entirely in your
 browser: your HTML is not uploaded, stored, or sent to an external service.
 
+## Live demo
+
+Try the checker at
+[https://create-aquarius.github.io/ai-static-site-preflight/](https://create-aquarius.github.io/ai-static-site-preflight/).
+
 ## Why this exists
 
 AI tools can produce a usable static page quickly, but generated HTML often
