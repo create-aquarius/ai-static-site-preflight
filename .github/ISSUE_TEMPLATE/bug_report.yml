@@ -1,0 +1,36 @@
+name: Bug report
+description: Report an incorrect or missing preflight result
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste private HTML, credentials, customer data, or unpublished content.
+        Use a minimal reproducible example.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What result did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: fixture
+    attributes:
+      label: Minimal HTML fixture
+      description: Paste the smallest non-sensitive HTML example that reproduces the issue.
+      render: html
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Example: Chrome 136, Firefox 138
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed private content, credentials, and personal data.
+          required: true
