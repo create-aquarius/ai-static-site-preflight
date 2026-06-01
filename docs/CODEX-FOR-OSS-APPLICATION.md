@@ -6,7 +6,7 @@ issues, or releases that the repository has not earned yet.
 
 ## Repository URL
 
-`https://github.com/[username]/ai-static-site-preflight`
+`https://github.com/create-aquarius/ai-static-site-preflight`
 
 ## Role
 
