@@ -1,0 +1,10 @@
+{
+  "name": "ai-static-site-preflight",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first preflight checks for AI-generated static HTML.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}

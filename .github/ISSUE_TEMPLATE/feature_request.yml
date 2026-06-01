@@ -1,0 +1,33 @@
+name: Rule proposal
+description: Suggest a technical static-site check
+title: "[Rule]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Publishing problem
+      description: What static-site problem should the rule catch?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Minimal example
+      description: Provide a non-sensitive HTML example if possible.
+      render: html
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected finding
+      description: What should the checker report?
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This is a technical HTML, accessibility, or static-hosting check.
+          required: true
